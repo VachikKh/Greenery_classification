@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+greenery_venv/
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files
+*.log
+
+# Ignore zip files (optional, since your project deals with them)
+*.zip
+# Ignore data files
+data
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files (Windows, macOS, Linux)
+.DS_Store
+Thumbs.db
